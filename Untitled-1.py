@@ -1,0 +1,1 @@
+nimi = str(input("What is your name? "))
