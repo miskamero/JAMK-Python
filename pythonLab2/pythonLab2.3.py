@@ -1,0 +1,5 @@
+nimi = str(input("Anna kokonimesi: "))
+i = nimi.find(" ")
+etuNimi = slice(0, i)
+sukuNimi = slice(i, len(nimi))
+print("Etunimi: ", nimi[etuNimi], "\nSukunimi:", nimi[sukuNimi])
